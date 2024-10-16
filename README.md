@@ -79,7 +79,7 @@ Program to design a half subtractor and full subtractor circuit and verify its t
 Developed by:SURIYA RAJ K
 
 RegisterNumber: 212223040216
-
+```
 module Fulladdsub(a,b,cin,sum,carry,BO,DIFF);
 input a,b,cin;
 output sum,carry,BO,DIFF;
@@ -88,6 +88,7 @@ assign carry=(a&b)|(a&cin)|(b&cin);
 assign DIFF=(a^b^cin);
 assign BO=(~a&b)|(~(a^b)& cin);
 endmodule
+```
 
 *RTL Schematic*
 
